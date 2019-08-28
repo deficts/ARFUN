@@ -1,3 +1,6 @@
+Trying some AR with AR.JS
+
+
 3D models used
 
 https://sketchfab.com/3d-models/mimikyu-ad2aaa7bb372441984f40df49854b3eb Mimikyu by AlmondFeather
