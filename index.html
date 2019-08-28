@@ -11,14 +11,14 @@
 <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs="debugUIEnabled: false">
         <a-assets>
-            <a-asset-item id="robot" src="scene.gltf"></a-asset-item>
-            <a-asset-item id="mimikyu" src="scene_1.gltf"></a-asset-item>
+            <a-asset-item id="robot" src="Mecha/scene.gltf"></a-asset-item>
+            <a-asset-item id="dog" src="Dog/scene.gltf"></a-asset-item>
         </a-assets>
         <a-marker preset="kanji">
             <a-entity gltf-model="#robot" scale="0.005 0.005 0.005" rotation="0 180 0" position="0 0 0" animation-mixer="loop:repeat"></a-entity>
         </a-marker>
         <a-marker preset="hiro">
-            <a-entity gltf-model="#mimikyu" scale="0.005 0.005 0.005" rotation="0 180 0" position="0 0 0" animation-mixer="loop:repeat"></a-entity>
+            <a-entity gltf-model="#dog" scale="0.015 0.015 0.015" rotation="0 0 0" position="0 0 0" animation-mixer="loop:repeat"></a-entity>
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
